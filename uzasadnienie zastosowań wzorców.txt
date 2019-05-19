@@ -1,6 +1,10 @@
 Wzorzec budowniczego dla klasy Przedmiot:
 
+
 W tym przypadku wzorzec kreacyjny "Budowniczy" zosta³ zastosowany ze wzglêdu na z³o¿onoœæ obiektu Przedmiot,
 który zawiera w sobie obiekty Profesor, Kierunek oraz Wydzia³. Zatem jego tworzenie mo¿na rozbiæ na kilka
 mniejszych etapów. Najpierw tworzony jest obiekt Wydzia³ który potrzebny jest do stworzenia obiektów Profesor
 i Wydzia³ co pozwala na stworzenie obiektu Przedmiot.
+
+Wzorzec prototyp dla klasy Ocena:
+Klasa Ocena jest nieskomplikowan¹ klas¹ która jednak powtarza siê doœæ czêsto, mo¿e przyjmowaæ tylko kilka wartoœci z okreœlonego zakresu. Jako ¿e kopiowanie obiektu jest zazwyczaj szybsze od jego tworzenia od zera, zastosowano wzorzec prototypu, który poprzez wywo³anie funkcji clone(), klonuje odpowiedni obiekt.

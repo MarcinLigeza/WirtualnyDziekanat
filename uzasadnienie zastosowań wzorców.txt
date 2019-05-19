@@ -1,0 +1,6 @@
+Wzorzec budowniczego dla klasy Przedmiot:
+
+W tym przypadku wzorzec kreacyjny "Budowniczy" zosta³ zastosowany ze wzglêdu na z³o¿onoœæ obiektu Przedmiot,
+który zawiera w sobie obiekty Profesor, Kierunek oraz Wydzia³. Zatem jego tworzenie mo¿na rozbiæ na kilka
+mniejszych etapów. Najpierw tworzony jest obiekt Wydzia³ który potrzebny jest do stworzenia obiektów Profesor
+i Wydzia³ co pozwala na stworzenie obiektu Przedmiot.
